@@ -1,0 +1,113 @@
+/*CSS structure*/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.menu{
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.space{
+    margin-right: 10px;
+}
+.space a{
+    margin-left: 10px;
+}
+
+.head-text{
+    font-size: 12px;
+}
+.head-text a{
+    color: blue;
+    text-underline-offset: 13px;
+}
+.flex-menu{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.other-apps-menu{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.search-bar{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 150px;
+}
+.dev-name{
+    font-family: "Roboto Slab", serif;
+    font-size: 70px;
+}
+.input-search-bar{  
+    height: 40px;
+    width: 500px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 415px;
+}
+.input-search-bar input{
+    font-size: 18px;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    width: 70vh;
+}
+.input-search-bar button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.text-p-search-bar{
+    margin-top: 5px;
+}
+.settings{
+    
+    display: flex;
+    margin-left: 515px;
+}
+.settings p{
+    display: block;
+    padding: 10px;
+}
+.settings a{
+    color: gray;
+    text-decoration: none;
+}
+footer{
+    border-top: 1px solid rgba(121, 121, 121, 0.178);
+}
+
+
+
+
+
+
+/*Images*/
+.menu-img{
+    width: 20px;
+    height: 20px;
+}
+.user-img-div{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.user-img{
+    height: 40px;
+    width: 40px;
+}
+.button-other-img{
+    height: 15px;
+    width: 15px;
+}
